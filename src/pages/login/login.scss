@@ -1,0 +1,41 @@
+@import './../../assets/scss/variables.scss';
+
+.login_div {
+    display       : flex;
+    align-Items   : center;
+    flex-Direction: column;
+    margin-Top    : 65px;
+
+    .grid-div {
+        margin-Top: 20px;
+    }
+}
+.containerAuth {
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(121deg,#003588,#338b96);
+}
+
+.login-container {
+    text-align: center;
+}
+.containerAuth .MuiFormLabel-root{
+    font-family: 'Nunito Sans', 'sans-serif' !important;
+}
+
+.containerAuth img{
+    width: 300px;
+    height: auto;
+}
+.containerAuth img{
+    width: 300px;
+    height: auto;
+}
+.containerAuth .cui_login_title{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: normal;
+}
+.containerAuth .cui_login_dialog{
+    background: rgba(255, 255, 255, 0.1) !important;
+}

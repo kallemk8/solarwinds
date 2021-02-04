@@ -1,0 +1,130 @@
+@import './../../assets/scss/variables.scss';
+
+.span-head {
+    vertical-align: super;
+}
+.icon-color{
+    color: #639FB0;
+}
+
+.side-menu {
+    width:200px;
+    background: #ffffff;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    box-shadow: -1px 1px 16px rgba(0,0,0,.2);
+    z-index: 2;
+}
+.logo-div{
+    margin: 10px 5px;
+}
+.logo-img{
+    margin: 10px;
+    .app-logo {
+        height: auto;
+        max-width: 180px;
+        width: 180px;
+    }
+}
+
+.menu-div {
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.side-menu ul {
+    margin-top: 25px;
+    padding-left: 0px;
+    line-height: 26px;
+}
+
+ul.dropdown { 
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    margin-left: 20px;
+    text-decoration: none !important;
+    color: $grey-text;
+}
+
+a.nav-link.active {
+    color: $primary-color;
+    font-weight: 600;
+}
+.nav-link-Home {
+    padding-left: 15px;
+    display: block;
+    text-decoration: none !important;
+    color: #639FB0;
+    background-image: url("../../assets/img/Home-Img.png");
+    background-repeat: no-repeat;
+}
+
+a.nav-link-Home.active {
+    color: #639FB0;
+    font-weight: 700;
+}
+
+.nav-link-Device {
+    padding-left: 15px;
+    display: block;
+    text-decoration: none !important;
+    color: #848787;
+}
+
+a.nav-link-Device.active {
+    color: #639FB0;
+    font-weight: 700;
+}
+
+.nav-link-Tickets {
+    padding-left: 15px;
+    display: block;
+    text-decoration: none !important;
+    color: #848787;
+}
+
+a.nav-link-Tickets.active {
+    color: #639FB0;
+    font-weight: 700;
+}
+.UpDown-Arrow{height: 13px; float: right; margin: 5px;}
+.menu-heading {
+    vertical-align: super;
+    padding-left: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+.flex {
+    display: flex;
+}
+
+ul li a.active{
+    background: #c2c2c2;
+    color: red;
+    display: block;
+    padding: 5px 12px;
+}
+.menu-image {
+    width: 16px;
+    margin: 0 0 4px 0;
+}
+.sign-out{
+    bottom: 0px;
+    position: absolute;
+}
+.Profile{
+    margin-bottom: 40px;
+    bottom: 0px;
+    position: absolute;
+
+    .MuiSvgIcon-root {
+        width: 16px;
+    }
+}

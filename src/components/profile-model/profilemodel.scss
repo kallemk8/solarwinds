@@ -1,0 +1,181 @@
+@import './../../assets/scss/variables.scss';
+.formControl {
+    margin: 10px;
+    min-width: 120;
+}
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none !important;
+}
+.paper {
+    background-color: #fff;
+    border: '2px solid #000';
+    top: 0; 
+    position: absolute;
+    width: 25%;
+    right: 0px;
+    height: 100%;
+}
+.makeStyles-paper-5{
+    position: absolute;
+    right: 0px;
+    top: 0px !important;
+    border: 0px solid #fff !important;
+    padding: 0px !important;
+    width: 25%;
+    height: 100%;
+}
+.profile-head{
+    background: linear-gradient(121deg,#003588,#338b96);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: $white;
+    height: 55px;
+    cursor: pointer;
+}
+.profile-margin{
+    margin: 5px;
+}
+.profile-txt{
+    margin: 5px 20px;
+    .MuiInputBase-input {
+        color: $main-text;
+    }
+}
+.profile-btn{
+    background: linear-gradient(121deg,#003588,#338b96);
+    color: #fff !important;
+    width: 100%;
+    margin: 10px 0 !important;
+}
+.reset-btn{
+    background: linear-gradient(121deg,#003588,#338b96);;
+    color: #fff !important;
+    width: 40%;
+    margin: 10px 0 !important;
+    float: left;
+}
+.cancel-btn{
+    background-color: $white !important;
+    color: $primary-color !important;
+    //border: 2px solid $primary-color;
+    width: 40%;
+    margin: 10px 0 !important;
+    float: right;
+}
+.cancel-profile {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+.forget-link{
+    cursor: pointer;
+    color: $primary-color;
+}
+
+.eye-icon{
+    font-size: 16px !important;
+}
+.forget-txt{
+    width: 100% !important;
+}
+.profile-success .MuiPaper-root{
+    background: #4caf50;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    width: auto;
+    color: white;
+    font-size: 21px;
+    margin: 0px;
+}
+.profile-success .MuiAlert-icon{
+    color: #FFF !important;
+}
+.profile-success .MuiSnackbar-anchorOriginBottomCenter {
+    left: 80% !important;
+}
+
+.profile-success .MuiSnackbar-root{
+    position: absolute !important;
+}
+.profile-success .MuiAlert-icon{
+        padding: 25px 0 !important;
+}
+.validation-error{
+    color: red;
+    font-size: 12px;
+    padding-top: 5px;
+}
+#profile-page{
+    overflow-y: auto;
+    height: 90%;
+}
+
+.reset-pwd-btns {
+    .MuiButton-outlined {
+        border-color: $primary-color;
+    }
+}
+
+.btn-disabled {
+    opacity: 0.5;
+}
+
+.label-text {
+    font-size: 12px !important;
+}
+.password-helpMsge{
+    font-size: 10px;
+    color: #3f4141;
+    margin: 10px 0;
+}
+.upload-style{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 14px;
+    background-color:#f1f0f0;
+    color: #fff;
+    text-decoration: underline;
+    margin: 0 auto;
+}
+.profileimageshow{
+    position: relative;
+    width: 75px;
+    margin: 0 auto;
+}
+.profileimageshow .MuiAvatar-root{
+    margin: 20px auto;
+    width: 75px;
+    height: 75px;
+}
+.upload-onhouver{
+    display: none;
+    position: absolute;
+    text-align: center;
+    left: 0 ;
+    z-index: 99;
+    top: 0%;
+    background-color: rgba(0,0,0,0.4);
+    width: 75px;
+    height: 75px;
+    line-height: 80px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.profileimageshow:hover .upload-onhouver{
+    display: block;
+}
+.profileimageshow.show .upload-onhouver{
+    display: block;
+}

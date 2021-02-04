@@ -1,0 +1,32 @@
+$white: #FFF;
+$black: #000;
+$main-text: #3F4141;
+$grey-text: #848787;
+$light-bg: #f2f2f2;
+$txt-color: #3F4141;
+$border-color: #dfe1e1;
+
+
+//New Color
+$primary-color: #003588;
+$secondary-color: #265077;
+
+$header-color: #f7f7f7;
+$sidebar_size: 200px;
+$sidebar_size_sm: 50px;
+$header_height: 65px;
+$xs_bp: 468px;
+$sp_bp: 768px;
+$tb_bp: 992px;
+$dt_bp: 1242px;
+
+%transition {
+  transition: all .2s ease-in-out;
+}
+
+
+
+//OLD COLOR
+//$primary-color: #639FB0;
+//$secondary-color: #265077;
+//$header-color: #39504D

@@ -1,0 +1,170 @@
+.data-label-color {
+  color: #639FB0 !important;
+}
+.description {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #848787;
+}
+.cancel-dialog {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.description-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lowitemsdisplay{
+  height: 400px;
+  top: 25% !important;
+}
+
+.oneitemsdisplay{
+  height: 250px;
+  top: 25% !important;
+}
+
+.Ticket-model{
+  background-color: #fff;
+  min-width: 500px;
+  max-width: 500px;
+  max-height: 50%;
+  overflow: auto;
+}
+
+.Ticket-model:focus{
+  outline: none;
+}
+
+.ticket-head{
+  background: #39504D;
+  display: block;
+  padding: 1px 10px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.Ticket-cancel {
+  top: 30px;
+  right: 10px;
+  float: right;
+  cursor: pointer;
+}
+.ticket-table table{
+  font-size: 12px;
+  padding: 10px;
+}
+.ticket-table table tr td{
+  width: 25%;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.ticket-table tr td:nth-child(2){
+  width: 75%;
+}
+.f-size{
+  font-size: 12px;
+}
+.ticket-head h5{
+  margin: 5px;
+}
+.ticketModel-Error{
+  padding: 20px;
+    margin: 75px 20px;
+    color: #000;
+    font-weight: 700;
+}
+.show-more{
+  font-size: 12px;
+  cursor: pointer;
+}
+.Graph-Ticket-model{
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+}
+.Graph-Ticket-model:focus, .One-Graph-Ticket-model:focus, .Multiple-Graph-Ticket-model:focus{
+  outline: none;
+}
+
+.One-Graph-Ticket-model{
+  width: 80%;
+  height: 30%;
+  background-color: #fff;
+}
+.Multiple-Graph-Ticket-model{
+  width: 80%;
+  height: 50%;
+  background-color: #fff;
+}
+.model-ticket-close{
+    top: 12%;
+    right: 11%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.small-model-ticket-close{
+  top: 26%;
+  right: 11%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.one-model-ticket-close{
+  top: 36%;
+  right: 11%;
+  position: absolute;
+  cursor: pointer;
+}
+
+
+// #tickets-list .MuiTable-root tbody{
+//   height: 465px;
+//   display: inline-block;
+//   position: absolute;
+//   width: 77%;
+//   overflow-y: scroll;
+// }
+
+// #tickets-list .MuiTable-root thead tr th{
+//  width: 10%;
+//  text-align: center;
+// }
+// #tickets-list  .MuiTable-root thead tr th:last-child {
+//   width: 40%;
+// }
+// #tickets-list .MuiTable-root tbody tr td{
+//  width: 10%;
+//  text-align: center;
+// }
+
+// #tickets-list .MuiTable-root tbody tr td:last-child {
+//   width: 40%;
+//   text-align: left;
+// }
+.table-main{
+  margin: 20px;
+  border: 1px solid #F2F2F2;
+  overflow: auto;
+}
+
+.container-scrolling{
+    max-Height: 550px;
+}
+
+.ticket-container-scrolling{
+    max-Height: 500px;
+}
+
+.model-bg-white{
+  background: #fff !important;
+}
+.model-close-FS{
+  font-size: 12px;
+}
